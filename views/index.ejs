@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jokes App</title>
+  <link rel="stylesheet" href="/styles/main.css">
+ 
+</head>
+<body>
+  <div id = "container">
+    <h1> JOKES GENERATOR </h1>
+    <h3> With REST API &  EXPRESS </h3>
+    <div id = "inner-container">
+        <h3> JOKE : <%= setup %> </h3>
+        <p id="answer"><%= delivery %></p>
+            <div id = "btns">
+                <button id="showAnswerBtn">See Answer</button>
+                <button id="reload" onclick="location.reload()"> Next Joke </button>
+            </div>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
